@@ -16,6 +16,7 @@
     margin: 1% 5%;
     width: 90%;
     height: auto;
+    min-height: 40px;
     box-shadow: 0px -4px seagreen;
     word-break: break-all
 }
