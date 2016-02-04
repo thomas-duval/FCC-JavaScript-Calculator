@@ -1,3 +1,4 @@
+/* global $ */
 /* global displayer */
 var calculation = [];
 var operation = "";
