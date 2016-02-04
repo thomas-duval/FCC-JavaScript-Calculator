@@ -46,6 +46,14 @@ $(document).ready(function () {
         calculation.push(9);
         display()     
     });    
+    $('#zero').click(function () {
+        calculation.push(0);
+        display()     
+    });    
+    $('#dot').click(function () {
+        calculation.push(".");
+        display()     
+    });    
     $('#AC').click(function () {
         calculation = [];
         display()     

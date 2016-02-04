@@ -1,3 +1,44 @@
 #calculator {
-    background: darkgray;
+    background: darkseagreen;
+    width: 400px;
+    height: auto;
+    margin: 50px auto;
+    padding: 10px 5px;
+    box-shadow: 0px 4px seagreen;
+    border-radius: 10px;
+}
+#displayer {
+    background: #6BA358;
+    border-color: #6BA358;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: right;
+    margin: 1% 5%;
+    width: 90%;
+    box-shadow: 0px -4px seagreen;
+}
+.btn {
+    width: 22.1%;
+    height: 40px;
+    margin: 2% 1%;
+    box-shadow: 0px 4px seagreen;
+    vertical-align: middle;
+    font-style: bold;
+    font-size: 17px;
+}
+.btn-danger {
+    box-shadow: 0px 4px darkred;
+}
+.btn-warning {
+    box-shadow: 0px 4px darkgoldenrod;
+}
+.btn-default {
+    border-color: #F0F5F3;
+    background: #F0F5F3;
+    box-shadow: 0px 4px seagreen;
+    color: darkolivegreen;
+}
+#equal {
+    width: 47%;
+    margin: auto 1.25%;
 }
