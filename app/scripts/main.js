@@ -1,12 +1,9 @@
 /* global $ */
 /* global displayer */
 var calculation = [];
-var operation = "";
-var result
 
 function display() {
-    operation = calculation.join("");
-    $('#displayer').html(operation)
+    $('#displayer').html(calculation.join(""))
 }
 
 $(document).ready(function () {
@@ -83,8 +80,8 @@ $(document).ready(function () {
         display()     
     });
     $('#equal').click(function () {
-        result = eval(calculation.join(""));
-        $('#displayer').html(result)    
+        $('#displayer').html(eval(calculation.join("")))
+        calculation = [eval(calculation.join(""))]    
     });
 
 });
